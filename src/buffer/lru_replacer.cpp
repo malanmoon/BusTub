@@ -14,7 +14,7 @@
 
 namespace bustub {
 
-LRUReplacer::LRUReplacer(size_t num_pages) {}
+LRUReplacer::LRUReplacer(size_t num_pages) : page2iter_{num_pages} {}
 
 LRUReplacer::~LRUReplacer() = default;
 
